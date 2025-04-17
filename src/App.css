@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import "tailwindcss";
+
+
+
+/* color base  */
+:root {
+  --color-body: #797979;
+  --color-gray-dark: #454545;
+  --color-gold: #D5B981;
+  --color-navy: #1d2434;
+  --color-transparent: #d5b98125
+}
+body{
+    background-color: #ffff;
+    color: var(--color-body);
+    font-family: 'Lato', sans-serif;
+}
+.testi-scrollbar{
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.testi-scrollbar::-webkit-scrollbar{
+  display: none;
+}
